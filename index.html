@@ -1,0 +1,113 @@
+<!-- piszemy kontent  
+SHIFT + ! generacja html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        * {
+            margin: 0;
+        }
+        a {
+            display: block;
+        }
+        .container {
+            width: 1000px;
+            margin: 0 auto;/* w pionie w poziomie*/
+            text-align: center;
+            padding: 150px 0px ;
+        }
+        .section {
+            background-color: rgb(64, 78, 237);
+            height: 69.25vh;/* 80% Twojego rzeczywistego ekranu*/
+            
+        }
+        .button1 {
+            background-color: white;
+            padding: 25px 32px;
+            border-radius: 28px;
+            margin-top: 24px;
+            margin-right: 24px;
+            font-size: 20px;
+            height: 20px;
+            border-color:white;
+            align-items: center;
+            display:inline-flex
+            
+            
+        }
+        .button2 {
+            background-color: black;
+            color:white;
+            padding: 25px 32px; /* w pionie w poziomie*/
+            border-radius: 28px;
+            margin-top: 24px;
+            font-size: 20px;
+            height: 20px;  
+            align-items: center; 
+            display: inline-flex;
+
+        }
+        .button1:hover{
+            box-shadow: 10px 5px 5px black;
+        }
+        .button2:hover{
+            box-shadow: 10px 5px 5px white;
+        }
+        .Napis1 {
+            
+            font-size: 70px;  
+            color:white;
+        }
+        .Napis2 {
+            color: white;
+            font-size: 25px;
+        }
+        .Przyciski {
+            margin-left: 550px;
+            }
+        .obrazki1 {
+            position: absolute;
+            top: 0;
+            width: 100vw;
+        }
+        .obrazki2 {
+        z-index: 2;            
+        }
+    </style>
+</head>
+
+<body>
+    <main> 
+        <section class="section">
+            <div class="obrazki1">
+                <div class="obrazki2">
+                <img class="obrasek" alt="But" src="./Images/Diskoła2.svg">
+                <img class="obrasek" alt="Lada" src="./Images/Diskoła.svg">
+                </div>
+                <img class="obrasek2" alt="Góry" src="./Images/Diskoła3.svg">
+             </div>
+            <div class="container">
+                <h1 class="Napis1">Wyobraź sobie miejsce...</h1>
+                <p class="Napis2">...gdzie możesz należeć do szkolnego klubu, grupy osób grających w gry czy globalnej społeczności artystów. Gdzie możesz
+                po prostu spędzać czas z garstką znajomych. Miejsce, które ułatwia codzienne rozmowy i częstsze spędzanie czasu razem.</p>
+                </div>
+            <a class="Przyciski">
+                <button class="button1">Pobierz dla systemu windows</button>
+                <button class="button2">Otwórz Discorda w przeglądarce</button>
+                </a>
+            
+        </section>
+        <section>Sekcja2</section>
+        <a href="https://github.com/bialka104b" >link</a>
+    </main>
+    <footer>Stopka</footer>
+</body>
+
+</html>
