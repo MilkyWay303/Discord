@@ -14,104 +14,123 @@ SHIFT + ! generacja html
         * {
             margin: 0;
         }
+
         a {
             display: block;
         }
+
         .container {
             width: 1000px;
-            margin: 0 auto;/* w pionie w poziomie*/
+            margin: 0 auto;
+            /* w pionie w poziomie*/
             text-align: center;
-            padding: 150px 0px ;
+            padding: 150px 0px;
         }
+
         .section {
             background-color: rgb(64, 78, 237);
-            height: 69.25vh;/* 80% Twojego rzeczywistego ekranu*/
+            height: 69.25vh;
+            /* 80% Twojego rzeczywistego ekranu*/
             position: relative;
-            
+
         }
+
         .button1 {
             background-color: white;
             padding: 25px 32px;
             border-radius: 28px;
             font-size: 20px;
             height: 20px;
-            border-color:white;
-            align-items: center; 
-            display: inline-flex;   
-            z-index: 3;
-        }
-        .button2 {
-            background-color: black;
-            color:white;
-            padding: 25px 32px; /* w pionie w poziomie*/
-            border-radius: 28px;
-            font-size: 20px;
-            height: 20px;  
+            border-color: white;
             align-items: center;
             display: inline-flex;
             z-index: 3;
         }
-        .button1:hover{
+
+        .button2 {
+            background-color: black;
+            color: white;
+            padding: 25px 32px;
+            /* w pionie w poziomie*/
+            border-radius: 28px;
+            font-size: 20px;
+            height: 20px;
+            align-items: center;
+            display: inline-flex;
+            z-index: 3;
+        }
+
+        .button1:hover {
             box-shadow: 10px 5px 5px black;
         }
-        .button2:hover{
+
+        .button2:hover {
             box-shadow: 10px 5px 5px white;
         }
+
         .Napis1 {
-            
-            font-size: 70px;  
-            color:white;
+
+            font-size: 70px;
+            color: white;
         }
+
         .Napis2 {
             color: white;
             font-size: 25px;
         }
+
         .Przyciski {
             display: flex;
             justify-content: space-around;
             margin: 0 550px;
-            }
+        }
+
         .obrazki1 {
             position: absolute;
             bottom: 0;
             width: 100vw;
             position: absolute;
         }
+
         .obrazki2 {
-        z-index: 2; 
-        display: flex;     
-        justify-content: space-between;    
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
         }
     </style>
 </head>
 
 <body>
-    <main> 
+    <main>
         <section class="section">
             <div class="obrazki1">
                 <img class="obrasek2" alt="Góry" src="./Images/Diskoła3.svg">
-             </div>
+            </div>
             <div class="obrazki1">
                 <div class="obrazki2">
-                <img class="obrasek" alt="But" src="./Images/Diskoła2.svg">
-                <img class="obrasek" alt="Lada" src="./Images/Diskoła.svg">
+                    <img id="img1" class="obrasek" alt="But" src="./Images/Diskoła2.svg">
+                    <img style="" class="img2 obrasek" alt="Lada" src="./Images/Diskoła.svg">
                 </div>
-             </div>
+            </div>
             <div class="container">
                 <h1 class="Napis1">Wyobraź sobie miejsce...</h1>
-                <p class="Napis2">...gdzie możesz należeć do szkolnego klubu, grupy osób grających w gry czy globalnej społeczności artystów. Gdzie możesz
-                po prostu spędzać czas z garstką znajomych. Miejsce, które ułatwia codzienne rozmowy i częstsze spędzanie czasu razem.</p>
-                </div>
+                <p class="Napis2">...gdzie możesz należeć do szkolnego klubu, grupy osób grających w gry czy globalnej
+                    społeczności artystów. Gdzie możesz
+                    po prostu spędzać czas z garstką znajomych. Miejsce, które ułatwia codzienne rozmowy i częstsze
+                    spędzanie czasu razem.</p>
+            </div>
             <div class="Przyciski">
                 <button class="button1">Pobierz dla systemu windows</button>
                 <button class="button2">Otwórz Discorda w przeglądarce</button>
-                </div>
-            
+            </div>
+
         </section>
         <section>Sekcja2</section>
-        <a href="https://github.com/bialka104b" >link</a>
+        <a href="https://github.com/bialka104b">link</a>
     </main>
     <footer>Stopka</footer>
+    <script src="./index.js"></script>
+    <script src="./index1.js"></script>
 </body>
 
 </html>
