@@ -14,14 +14,14 @@ addEventListener("DOMContentLoaded", (event) => {
 	//     i = i + 1;
 	// })
 	// index++ => index = index +1
-	for (let index = 0; index < 10; index++) {
+	for (let index = 1; index < 11; index++) {
 		// const element = array[index];
 		console.log(index);
 		setTimeout(() => {
 			h1.innerText = index;
 		}, 1000 * index);
 	}
-	// 0
+	// 1
 	// 1
 	// 2
 	// 3
@@ -31,4 +31,5 @@ addEventListener("DOMContentLoaded", (event) => {
 	// 7
 	// 8
 	// 9
+	// 10
 });
