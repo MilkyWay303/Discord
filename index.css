@@ -13,3 +13,32 @@
 .img2 {
     margin-left: -25px;
 }
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;  /* co animujemy, długość trwania animacji */
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.button2 {
+    opacity: 0;
+    margin-top: -50px;
+    animation: fadein 1s ease-in 1s forwards
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 20%, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+}
