@@ -24,11 +24,11 @@
     opacity: 1;
     transform: translate(0, 0);
 }
-.button2 {
+/* .button2 {
     opacity: 0;
     margin-top: -50px;
     animation: fadein 1s ease-in 1s forwards
-}
+} */
 
 @keyframes fadein {
     0% {
